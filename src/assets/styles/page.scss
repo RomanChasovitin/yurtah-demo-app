@@ -1,0 +1,39 @@
+.page {
+  padding: 60px 130px;
+
+  @media screen and (max-width: 1115px) {
+    padding: 60px 65px;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 30px 25px;
+  }
+}
+
+.about-page {
+  text-align: center;
+
+  &__title {
+    font-size: 40px;
+    font-weight: bold;
+    color: $primaryColor;
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 700px) {
+      font-size: 20px;
+    }
+  }
+
+  &__text {
+    padding: 0 120px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+
+    @media screen and (max-width: 700px) {
+      font-size: 14px;
+      padding: 0;
+    }
+  }
+}

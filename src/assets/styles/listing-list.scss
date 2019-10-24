@@ -1,0 +1,34 @@
+.listing-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
+  grid-column-gap: 15px;
+  grid-row-gap: 30px;
+}
+
+.listing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__image {
+    border-radius: 23px;
+    width: 274px;
+    height: 177px;
+  }
+
+  &__address {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1;
+  }
+
+  &__price {
+    margin-top: 7px;
+    color: $primaryColor;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
