@@ -6,7 +6,9 @@ const ListingItem = ({ listing }) => {
   const price = `$ ${listing.price}`;
   return (
     <div className="listing-item">
-      <img src={listingImageUrl} alt="" className="listing-item__image" />
+      <div className="listing-item__image-wrapper">
+        <img src={listingImageUrl} alt="" className="listing-item__image" />
+      </div>
       <span className="listing-item__address">{listingAddress}</span>
       <span className="listing-item__price">{price}</span>
     </div>
