@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/yurtah/static/css/main.1039b526.chunk.css",
+    "main.js": "/yurtah/static/js/main.76343a2d.chunk.js",
+    "main.js.map": "/yurtah/static/js/main.76343a2d.chunk.js.map",
+    "runtime-main.js": "/yurtah/static/js/runtime-main.62c39b8c.js",
+    "runtime-main.js.map": "/yurtah/static/js/runtime-main.62c39b8c.js.map",
+    "static/js/2.d085ea68.chunk.js": "/yurtah/static/js/2.d085ea68.chunk.js",
+    "static/js/2.d085ea68.chunk.js.map": "/yurtah/static/js/2.d085ea68.chunk.js.map",
+    "index.html": "/yurtah/index.html",
+    "precache-manifest.0516e31e4475eef29d9b250f656f3d70.js": "/yurtah/precache-manifest.0516e31e4475eef29d9b250f656f3d70.js",
+    "service-worker.js": "/yurtah/service-worker.js",
+    "static/css/main.1039b526.chunk.css.map": "/yurtah/static/css/main.1039b526.chunk.css.map",
+    "static/media/index.scss": "/yurtah/static/media/bg.7949563b.png",
+    "static/media/logo.svg": "/yurtah/static/media/logo.d12274c2.svg",
+    "static/media/oval.svg": "/yurtah/static/media/oval.013b6b87.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62c39b8c.js",
+    "static/js/2.d085ea68.chunk.js",
+    "static/css/main.1039b526.chunk.css",
+    "static/js/main.76343a2d.chunk.js"
+  ]
+}
